@@ -26,10 +26,10 @@
 16. ✅ Directory Index Behavior and Configuration  
 
 # 3. Arrays in PHP
-1. ✅ Introduction to Indexed Arrays  
-2. ✅ Associative Arrays  
-3. ✅ Real-World Example Using Associative Arrays (Product Info Card) (🎯PRJ 100)
-4. ✅ Multidimensional Arrays  
+1.  ✅ Introduction to Indexed Arrays  
+2.  ✅ Associative Arrays  
+3.  ✅ Real-World Example Using Associative Arrays (Product Info Card) (🎯PRJ 100)
+4.  ✅ Multidimensional Arrays  
 5. Improving Product Card with Multidimensional Arrays  
 6. Array Example: Social Network Application (🎯PRJ 101)
 7. Storing Data in `stdClass` Object  
@@ -44,31 +44,31 @@
 6. ✅ Logical Operators  
 7. ✅ Short Conditionals: Ternary Operator & Null If  
 8. ✅ `switch` Statement  
-9. `match` Expression  
-10. Spaceship Operator  
-11. `for` Loop  
-12. `while` Loop  
-13. `do-while` Loop  
-14. `foreach` Loop  
+9. ✅ `match` Expression  
+10.✅ Spaceship Operator  
+11.✅ `for` Loop  
+12.✅ `while` Loop  
+13.✅ `do-while` Loop  
+14.✅ `foreach` Loop  
 15. Using `break` and `continue`  
-16. Nested Loops  
+16.✅ Nested Loops  
 17. Alternative Syntax (`endif`, `endwhile`, `endfor`, `endforeach`)  
 18. Improving Social Network & Product Card Using `foreach`  
 19. Generating Passwords and Random Codes Using `for`  
 
 # 5. Functions in PHP
-1. What Is a Function in Programming?  
-2. Defining a New Function in PHP  
-3. Function Arguments / Parameters  
-4. Optional & Required Parameters and Default Values  
-5. Returning Values from Functions  
-6. Variable Scope in Functions  
-7. Variadic Functions  
-8. Recursive Functions  
-9. Parameter Type Declaration  
-10. Using Named Parameters  
-11. Anonymous Functions / Closures  
-12. Arrow Functions  
+1.  ✅ What Is a Function in Programming?  
+2.  ✅ Defining a New Function in PHP  
+3.  ✅ Function Arguments / Parameters  
+4.  ✅ Optional & Required Parameters and Default Values  
+5.  ✅ Returning Values from Functions  
+6.  ✅ Variable Scope in Functions  
+7.  ✅ Variadic Functions  
+8.  ✅ Recursive Functions  
+9.  ✅ Parameter Type Declaration  
+10. ✅ Using Named Parameters  
+11. ✅ Anonymous Functions / Closures  
+12. ✅ Arrow Functions  
 13. What Is a Callback? How Is It Different from a Function?  
 
 # 6. Working with Common PHP Functions

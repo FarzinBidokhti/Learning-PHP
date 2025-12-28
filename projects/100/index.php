@@ -1,3 +1,21 @@
+<?php
+
+$products = [
+    [
+        'title'        => 'product 1',
+        'price'        => '120000',
+        'description'  => 'some text',
+        'off'          => '10'
+    ],
+    [
+        'title'        => 'product 2',
+        'price'        => '200000',
+        'description'  => 'some text 2',
+        'off'          => '5'
+    ],
+];
+
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -151,19 +169,19 @@
 </head>
 
 <body>
-
+    <?php foreach($products as $product){ ?>
     <article class="product-card">
         <div class="product-image">
             <img src="https://images.pexels.com/photos/845434/pexels-photo-845434.jpeg" alt="Product Image">
         </div>
 
         <div class="product-content">
-            <span class="product-badge">New · 20% OFF</span>
+            <span class="product-badge">New · <?= $product['off']; ?>% OFF</span>
 
-            <h2 class="product-title">Wireless Noise Cancelling Headphones</h2>
+            <h2 class="product-title"><?= $product['title']; ?></h2>
 
             <p class="product-desc">
-                High-quality sound, 30h battery life, Bluetooth 5.2, and soft ear cushions for all-day comfort.
+                <?= $product['description']; ?>
             </p>
 
             <div class="product-rating">
@@ -173,8 +191,18 @@
 
             <div class="product-footer">
                 <div class="product-price">
-                    <span class="price-current">$129.00</span>
-                    <span class="price-old">$159.00</span>
+                    <span class="price-current">
+                        <?php
+                        $off     = $product['off'];
+                        $price   = $product['price'];
+                        $payCost = $price - (($price * $off) / 100);
+
+                        echo number_format($payCost);
+                        ?>
+                    </span>
+                    <span class="price-old">
+                        T <?= number_format($product['price']); ?>
+                    </span>
                 </div>
 
                 <button class="product-button" type="button">
@@ -184,7 +212,7 @@
             </div>
         </div>
     </article>
-
+    <?php } ?>
 </body>
 
 </html>
